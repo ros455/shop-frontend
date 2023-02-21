@@ -144,7 +144,7 @@ import cart from "./cart.css";
           {order.map((el) => (
             <div key={el._id} className="cart-item-wrapper">
               <div className="cart-image-wrapper">
-                <img className="cart-image-wrapper_img" src={`http://localhost:3333${el.imageUrl}`} />
+                <img className="cart-image-wrapper_img" src={`https://new-backend-book-shop-1.onrender.com${el.imageUrl}`} />
               </div>
               <div className="cart-element-wrapper">
                 <div>

@@ -120,7 +120,7 @@ export default function AddProduct() {
         )}
       </div>
       <div className="add-product-image-wrapper">
-        {imageUrl && <img src={`http://localhost:3333${imageUrl}`} />}
+        {imageUrl && <img src={`https://new-backend-book-shop-1.onrender.com${imageUrl}`} />}
       </div>
 
       <form className="add-product-form-wrapper">

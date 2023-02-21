@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const inctance = axios.create({
-  baseURL: 'http://localhost:3333',
+  baseURL: 'https://new-backend-book-shop-1.onrender.com',
 });
 
 inctance.interceptors.request.use((config) => {

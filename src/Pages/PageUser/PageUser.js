@@ -52,7 +52,7 @@ export default function PageUser() {
           {el.order.map((item) => (
             <div key={item._id} className='page-user-products-item'>
               <div className='page-user-img-wrapper'>
-              <img src={`http://localhost:3333${item.imageUrl}`} className='page-user-img-wrapper_image'/>
+              <img src={`https://new-backend-book-shop-1.onrender.com${item.imageUrl}`} className='page-user-img-wrapper_image'/>
               </div>
               <div className='page-user-products-content'>
               <h5>{item.title}</h5>

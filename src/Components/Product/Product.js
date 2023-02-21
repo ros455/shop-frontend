@@ -68,7 +68,7 @@ import product from "./product.css";
           {isFullProduct ? (
             <>
               <div className="full-product-image-wrapper">
-                {imageUrl && <img className="full-product-image-wrapper__img" src={`http://localhost:3333${imageUrl}`} />}
+                {imageUrl && <img className="full-product-image-wrapper__img" src={`https://new-backend-book-shop-1.onrender.com${imageUrl}`} />}
               </div>
               <div className="full-products-title-wrapper">
                 <h2 className="full-products-title">{title}</h2>
@@ -123,7 +123,7 @@ import product from "./product.css";
               <Link to={`product/${id}`}>
                 <div className="product-image-wrapper">
                 {imageUrl && <LazyLoadImage
-                src={`http://localhost:3333${imageUrl}`}
+                src={`https://new-backend-book-shop-1.onrender.com${imageUrl}`}
                 />}
                 </div>
               </Link>
