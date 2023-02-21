@@ -1,0 +1,31 @@
+.basket-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.header-basket {
+    width: 32px;
+    height: 32px;
+}
+
+.header-middle-basket-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.header-cart-link-length {
+    position: absolute;
+}
+
+.header-cart-length {
+    color: red;
+    z-index: 1;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 12px;
+}

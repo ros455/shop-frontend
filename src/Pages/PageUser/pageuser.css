@@ -1,0 +1,33 @@
+.page-user-wrapper {
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+}
+
+.page-user-time {
+    display: flex;
+}
+
+.page-user-products-item {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+.page-user-products-content {
+    padding-left: 10px;
+}
+
+.page-user-img-wrapper {
+    width: 100px;
+    height: 150px;
+}
+
+.page-user-img-wrapper_image {
+    width: 100%;
+}
+
+@media(max-width: 992px) {
+    .page-user-wrapper {
+        padding: 0px 10px;
+    }
+  }

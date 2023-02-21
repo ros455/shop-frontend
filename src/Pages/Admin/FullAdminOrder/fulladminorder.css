@@ -1,0 +1,9 @@
+.full-admin-order {
+    border-bottom: 1px solid grey;
+}
+
+.full-admin-order-button-wrapper {
+    display: flex;
+    width: 2%;
+    justify-content: space-around;
+}

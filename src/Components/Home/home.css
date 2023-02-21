@@ -1,0 +1,125 @@
+.home-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 25px;
+    justify-content: flex-start;
+    width: 85%;
+    height: 100%;
+}
+
+.home-product-wrapper {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 20px 12px;
+    padding: 1px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px grey;
+    transition:transform .6s;
+} 
+
+.home-product-wrapper:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    transform: scale(1.1);
+}
+
+.product-price-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+}
+
+.product-category-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.product-category-wrapper p {
+    margin-bottom: 0px;
+}
+
+.sort-panel-home-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sort-wrapper {
+    height: 100%;
+    width: 15%;
+}
+
+.home-pagination-wrapper {
+    margin: 10px 0px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.count-product-on-page-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+ @media(max-width: 1630px) {
+    .home-product-wrapper {
+        width: 23%;
+    }
+  }
+
+  @media(max-width: 1450px) {
+    .home-product-wrapper {
+        width: 30%;
+    }
+    .home-wrapper {
+        width: 80%;
+    }
+    .sort-wrapper {
+        width: 20%;
+    }
+  }
+
+  @media(max-width: 1220px) {
+    .home-product-wrapper {
+        width: 30%;
+    }
+    .home-wrapper {
+        width: 100%;
+    }
+  }
+
+  @media(max-width: 1090px) {
+    .home-product-wrapper {
+        width: 28%;
+    }
+  }
+
+  @media(max-width: 992px) {
+    .home-product-wrapper {
+        width: 30%;
+    }
+    .home-wrapper {
+        width: 100%;
+    } 
+    .sort-wrapper {
+        display: none;
+    }
+  }
+
+  @media(max-width: 900px) {
+    .home-product-wrapper {
+        width: 45%;
+    }
+  }
+
+  @media(max-width: 600px) {
+    .home-product-wrapper {
+        width: 100%;
+    }
+  }

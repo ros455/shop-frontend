@@ -1,0 +1,137 @@
+.admin-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.admin-order-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+.table {
+    font-weight: 600;
+}
+
+.admin-order-time p,
+.admin-order-total-sum p,
+.admin-order-full-name p,
+.admin-order-phone p,
+.admin-order-email p,
+.admin-order-city p,
+.admin-order-post p,
+.admin-order-post-number p,
+.admin-order-button-wrapper p,
+.admin-order-status p {
+    margin-bottom: 0px;
+}
+
+.admin-order-button {
+    padding: 0px 10px
+}
+
+.admin-order-status p {
+    font-weight: 600;
+}
+
+.admin-order-delete {
+    width: 2%;
+}
+
+.admin-order-time {
+    display: flex;
+    width: 13%;
+    justify-content: center;
+}
+
+.admin-order-total-sum {
+    display: flex;
+    width: 5%;
+    justify-content: center;
+}
+
+.admin-order-full-name {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items:center;
+}
+.admin-order-phone {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+.admin-order-email {
+    display: flex;
+    width: 17%;
+    justify-content: center;
+}
+.admin-order-city {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+.admin-order-post {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+.admin-order-post-number {
+    display: flex;
+    width: 9%;
+    justify-content: center;
+}
+.admin-order-button-wrapper {
+    display: flex;
+    width: 7%;
+    justify-content: center;
+}
+
+.admin-order-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.admin-order-status {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.admin-order-delete__button {
+    border:none;
+    background-color: #fff;
+}
+
+.new {
+    background-color: rgb(169, 249, 255);
+    border-radius:5px;
+}
+
+.succses {
+    background-color: rgb(169, 255, 169);
+    border-radius:5px;
+}
+
+.processing {
+    background-color: rgb(155, 155, 255);
+    border-radius:5px;
+}
+
+.intheway {
+    background-color: rgb(252, 255, 86);
+    border-radius:5px;
+}
+
+.danger {
+    background-color: rgb(255, 195, 195);
+    border-radius:5px;
+}
+
+

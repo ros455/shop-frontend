@@ -1,0 +1,33 @@
+.about-us-wrapper {
+    width: 70%;
+}
+
+.about-us-paragraph {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.about-us-list-first {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    list-style:square;
+}
+
+.about-us-list-second {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.about-us-list-second li, 
+.about-us-list-first li {
+    margin-bottom: 10px;
+}
+
+@media(max-width: 992px) {
+    .about-us-wrapper {
+        width: 95%;
+    }
+}

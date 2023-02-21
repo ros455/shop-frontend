@@ -1,0 +1,25 @@
+.pay-and-delivery-wrapper {
+    width: 70%;
+}
+
+.pay-and-delivery-paragraph {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.pay-and-delivery-list {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.pay-and-delivery-paragraph-span {
+    font-weight: 700;
+}
+
+@media(max-width: 992px) {
+    .pay-and-delivery-wrapper {
+        width: 95%;
+    }
+}

@@ -1,0 +1,15 @@
+.admin-user-wrapper {
+    width: 95%;
+}
+.admin-user-cheked {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+}
+.admin-user-cheked p {
+    margin-bottom: 0px;
+}
+.admin-user-item-wrapper {
+    border-bottom: 1px solid grey;
+}

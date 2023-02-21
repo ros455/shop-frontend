@@ -1,0 +1,25 @@
+.exchange-and-return-wrapper {
+    width: 70%;
+}
+
+.exchange-and-return-list {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.exchange-and-return-list li {
+    margin-bottom: 10px;
+}
+
+.exchange-and-return-paragraph {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+@media(max-width: 992px) {
+    .exchange-and-return-wrapper {
+        width: 95%;
+    }
+}

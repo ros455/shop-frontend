@@ -1,0 +1,231 @@
+.cart-wrapper {
+    padding-top: 10px;
+}
+.cart-item-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #838383;
+}
+
+.total-sum-and-danger-button{
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.cart-total-sum-wrapper {
+    display: flex;
+    align-items:center;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.cart-total-sum-wrapper__text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.cart-image-wrapper {
+    max-width: 100px;
+    max-height: 200px;
+}
+
+.cart-image-wrapper_img {
+    width: 100%;
+}
+
+.cart-element-wrapper {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.cart-button-wrapper {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cart-button-wrapper button {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.cart-button-wrapper p {
+    margin-bottom: 0px;
+}
+
+.AiTwotoneDelete {
+    cursor: pointer;
+}
+
+.cart-form-wrapper {
+    margin: 20px 0px;
+}
+
+.cart-form-full-name {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 5px 0px;
+}
+
+.cart-form-other-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 5px 0px;
+}
+
+.cart-input-wrapper {
+    padding: 0px 15px;
+}
+
+.cart-input-wrapper-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.cart-input-wrapper-select select {
+    width: 100%;
+}
+
+.cart-form-bottom {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0px;
+    padding-left: 15px;
+}
+
+.cart-form-bottom textarea {
+    width: 50%;
+    height: 150px;
+    resize: none;
+}
+
+.cart-input-wrapper-city {
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.cart-form-select-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 15px;
+}
+
+.cart-form-select-post {
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 5px 2px grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-form-select-post:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.cart-form-select-post-img-ukr-wrapper {
+    width: 20px;
+    height: 25px;
+}
+
+.cart-form-select-post-img-nowa-wrapper {
+    width: 50px;
+    height: 25px;
+}
+
+.cart-form-select-post-img {
+    width: 100%;
+}
+
+.universal-style-for-cart-form {
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.universal-style-for-cart-form:focus {
+    box-shadow: 2px 2px 5px 2px grey;
+    border:none;
+    outline:none;
+}
+
+@media(max-width: 992px) {
+    .cart-wrapper {
+        padding: 0px 10px;
+    }
+    .total-sum-and-danger-button {
+        flex-direction: column;
+        align-items:flex-start
+    }
+    .cart-total-sum-wrapper {
+        width: 30%;
+        justify-content: space-between
+    }
+    .AiTwotoneDelete {
+        width: 25px;
+        height: 25px;
+    }
+    .cart-button-wrapper {
+        width: 30%;
+    }
+    .cart-form-full-name {
+        flex-direction: column;
+    }
+    .cart-form-other-wrapper {
+        flex-direction: column;
+    }
+    .cart-form-select-post-wrapper {
+        width: 25%;
+    }
+  }
+
+  @media(max-width: 670px) {
+    .cart-total-sum-wrapper {
+        width: 40%;
+    }
+    .cart-button-wrapper {
+        width: 40%;
+    }
+    .cart-form-select-post-wrapper {
+        width: 35%;
+    }
+  }
+
+  @media(max-width: 550px) {
+    .cart-total-sum-wrapper {
+        width: 50%;
+    }
+    .cart-button-wrapper {
+        width: 50%;
+    }
+  }
+
+  @media(max-width: 450px) {
+    .cart-total-sum-wrapper {
+        width: 60%;
+    }
+    .cart-button-wrapper {
+        width: 60%;
+    }
+    .cart-form-select-post-wrapper {
+        width: 45%;
+    }
+    .cart-form-bottom textarea {
+        width: 75%;
+    }
+  }

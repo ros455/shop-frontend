@@ -1,0 +1,19 @@
+.contacts-wrapper {
+    width: 70%;
+}
+
+.contacts-paragraph {
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.contacts-paragraph-span {
+    font-weight: 700;
+}
+
+@media(max-width: 992px) {
+    .contacts-wrapper {
+        width: 95%;
+    }
+}

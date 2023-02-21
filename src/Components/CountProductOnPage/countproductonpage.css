@@ -1,0 +1,6 @@
+.count-product-on-page {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-top: 5px;
+}

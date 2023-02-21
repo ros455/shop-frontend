@@ -1,0 +1,64 @@
+.main-pagination {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.main-pagination__li {
+    margin: 0px 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.main-pagination__li:hover {
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.pagination-switch-button {
+  height: 20px;
+  width: 20px;
+}
+
+.main-pagination__last {
+  padding: 2px 4px;
+  margin: 0px 5px;
+  border: none;
+}
+
+.main-pagination__first {
+  padding: 2px 4px;
+  margin: 0px 5px;
+  border: none;
+}
+
+.main-pagination__prev {
+  padding: 2px 4px;
+  margin: 0px 5px;
+  border: none;
+}
+
+.main-pagination__next {
+  padding: 2px 4px;
+  margin: 0px 5px;
+  border: none;
+}
+
+.main-pagination_active-class {
+  background-color: black;
+}
+
+.main-pagination_active-link {
+  color:white;
+}
+
+.main-pagination_active-link:hover {
+  color:white;
+}
+
+.main-pagination__last:hover,
+.main-pagination__first:hover,
+.main-pagination__prev:hover,
+.main-pagination__next:hover{
+  transform: scale(1.5);
+  border: none;
+}

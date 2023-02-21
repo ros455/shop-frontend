@@ -1,0 +1,12 @@
+.admin-panel-wrapper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(248,249,250);
+    min-height: 50px;
+}
+
+.admin-panel-wrapper p {
+    margin-bottom: 0px;
+}

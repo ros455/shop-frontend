@@ -1,0 +1,41 @@
+.rating-wrapper {
+    display: flex;
+}
+
+.raiting-item-wrapper {
+width: 100%;
+}
+
+.rating-item {
+    color: rgb(209, 166, 25);
+}
+
+.raiting-button {
+    border: 1px solid grey;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.rating-body {
+    position: absolute;
+    content: "★★★★★";
+    display: block;
+}
+
+.star {
+    padding: 10px;
+}
+.AiFillStar {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.full-rating-number {
+    display: flex;
+    align-items:center;
+}
+.full-rating-number__item {
+    margin-bottom: 0px;
+}
